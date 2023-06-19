@@ -12,7 +12,7 @@
             while (tahmin != hafiza)
             {
                 sayac++;
-                Console.Write("Lütfen bir sayı giriniz: ");
+                Console.Write("Lütfen Sayı giriniz: ");
                 tahmin = Convert.ToInt16(Console.ReadLine());
                 if (tahmin > hafiza)
                 {
